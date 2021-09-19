@@ -98,6 +98,7 @@ class _ButtonShowcaseState extends State<ButtonShowcase> {
             ButtonBuilder(
               label: 'Popup Menu Button',
               child: PopupMenuButton<String>(
+                initialValue: _popUpValue,
                 onSelected: (String selected) {
                   setState(() {
                     _popUpValue = selected;
