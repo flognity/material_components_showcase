@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:material_components_showcase/screens/material_showcase.dart';
+
 import 'globals.dart';
 
 void main() {
